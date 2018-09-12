@@ -9,20 +9,27 @@ body{
 		background-size: cover;-->
 		
 	}
-.button{
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	}
+	
+.container .button{
 	background-color: #42f1f4;
 	color: white;
 	padding: 15px 32px;
-	positon: relative;
+	positon: absolute;
 	left: 50%;
 	top: 50%;
+	}
 	
 </style>
 <body>
 
-<button class="button">
-	Click me
-</button>
+<div class="container">
+	<button class="button">Click me</button>
+</div>
 
 
 
